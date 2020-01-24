@@ -11,6 +11,7 @@ The train data has been provided in the following way:
   - For business segment 2, historical data has been made available at State level.
  
 ## Train File
+
 | Variable             |  Definition        |
 | ---------------------| -------------------|
 | application_date     | Date of application     |
@@ -22,6 +23,7 @@ The train data has been provided in the following way:
 
 ## Test File
 Forecasting needs to be done at country level for the dates provided in test set for each segment.
+
 | Variable             |  Definition        |
 | ---------------------| -------------------|
 | id                   | Unique id for each sample in test set     |
@@ -30,6 +32,7 @@ Forecasting needs to be done at country level for the dates provided in test set
 
 ## Sample Submission
 This file contains the exact submission format for the forecasts. Please submit csv file only.
+
 | Variable             |  Definition        |
 | ---------------------| -------------------|
 | id                   | Unique id for each sample in test set     |
