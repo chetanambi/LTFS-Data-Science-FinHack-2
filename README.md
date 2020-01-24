@@ -38,11 +38,9 @@ This file contains the exact submission format for the forecasts. Please submit 
 | case_count           | (Target) Predicted values for test set  |
 
 ## Evaluation
-
 The evaluation metric for scoring the forecasts is MAPE (Mean Absolute Percentage Error) M with the formula:
-
+![image](https://user-images.githubusercontent.com/37707687/73078359-0aa2d600-3ee8-11ea-8a94-aa5fb0c9f5dd.png)
 Where At is the actual value and Ft is the forecast value.
-
 The Final score is calculated using MAPE for both the segments using the formula:
 
 
