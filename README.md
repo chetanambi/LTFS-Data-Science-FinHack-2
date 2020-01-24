@@ -42,6 +42,14 @@ The evaluation metric for scoring the forecasts is MAPE (Mean Absolute Percentag
 ![image](https://user-images.githubusercontent.com/37707687/73078359-0aa2d600-3ee8-11ea-8a94-aa5fb0c9f5dd.png)
 Where At is the actual value and Ft is the forecast value.
 The Final score is calculated using MAPE for both the segments using the formula:
+![image](https://user-images.githubusercontent.com/37707687/73078449-31f9a300-3ee8-11ea-90d6-7fdf75c7c0b4.png)
 
+### Important Notes
+Note that feasibility of implementation of top solutions will be considered while adjudging winners. The solution must produce satisfactory results for both the business segments.
+
+# Public and Private Split
+Test data is further divided into Public (1st Month) and Private (Next 2 months)
+Your initial responses will be checked and scored on the Public data.
+The final rankings would be based on your private score which will be published once the competition is over.
 
 
