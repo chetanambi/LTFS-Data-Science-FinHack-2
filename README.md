@@ -10,11 +10,27 @@ The train data has been provided in the following way:
   - For business segment 1, historical data has been made available at branch ID level
   - For business segment 2, historical data has been made available at State level.
  
-Train File
-Variable	Definition
-application_date	Date of application
-segment	Business Segment (1/2)
-branch_id	Anonymised id for branch at which application was received
-state	State in which application was received (Karnataka, MP etc.)
-zone	Zone of state in which application was received (Central, East etc.)
-case_count	(Target) Number of cases/applications received
+## Train File
+| Variable             |  Definition        |
+| ---------------------| -------------------|
+| application_date     | Date of application     |
+| segment              | Business Segment (1/2)     |
+| branch_id            | Anonymised id for branch at which application was received     |
+| state                | State in which application was received (Karnataka, MP etc.)     |
+| zone                 | Zone of state in which application was received (Central, East etc.)     |
+| case_count           | (Target) Number of cases/applications received  |
+
+## Test File
+| Variable             |  Definition        |
+| ---------------------| -------------------|
+| id                   | Unique id for each sample in test set     |
+| application_date     | Date of application     |
+| segment              | Business Segment (1/2)     |
+
+## Sample Submission
+| Variable             |  Definition        |
+| ---------------------| -------------------|
+| id                   | Unique id for each sample in test set     |
+| application_date     | Date of application     |
+| segment              | Business Segment (1/2)     |
+| case_count           | (Target) Predicted values for test set  |
