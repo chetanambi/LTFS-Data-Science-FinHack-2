@@ -21,6 +21,7 @@ The train data has been provided in the following way:
 | case_count           | (Target) Number of cases/applications received  |
 
 ## Test File
+Forecasting needs to be done at country level for the dates provided in test set for each segment.
 | Variable             |  Definition        |
 | ---------------------| -------------------|
 | id                   | Unique id for each sample in test set     |
@@ -28,9 +29,21 @@ The train data has been provided in the following way:
 | segment              | Business Segment (1/2)     |
 
 ## Sample Submission
+This file contains the exact submission format for the forecasts. Please submit csv file only.
 | Variable             |  Definition        |
 | ---------------------| -------------------|
 | id                   | Unique id for each sample in test set     |
 | application_date     | Date of application     |
 | segment              | Business Segment (1/2)     |
 | case_count           | (Target) Predicted values for test set  |
+
+## Evaluation
+
+The evaluation metric for scoring the forecasts is MAPE (Mean Absolute Percentage Error) M with the formula:
+
+Where At is the actual value and Ft is the forecast value.
+
+The Final score is calculated using MAPE for both the segments using the formula:
+
+
+
