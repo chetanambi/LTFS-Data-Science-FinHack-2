@@ -50,9 +50,12 @@ The Final score is calculated using MAPE for both the segments using the formula
 ### Important Notes
 Note that feasibility of implementation of top solutions will be considered while adjudging winners. The solution must produce satisfactory results for both the business segments.
 
-# Public and Private Split
+## Public and Private Split
 Test data is further divided into Public (1st Month) and Private (Next 2 months)
 Your initial responses will be checked and scored on the Public data.
 The final rankings would be based on your private score which will be published once the competition is over.
 
+## Leaderboard
+- Public Leaderboard: 22/883 
+- Private Leaderboard: 25/883
 
