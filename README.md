@@ -56,6 +56,7 @@ Your initial responses will be checked and scored on the Public data.
 The final rankings would be based on your private score which will be published once the competition is over.
 
 ## Leaderboard
+### Team Name: Nodus Tollens (Rajat Ranjan and Chetan Ambi)
+
 - Public Leaderboard: 13/883 
 - Private Leaderboard: 14/883
-
